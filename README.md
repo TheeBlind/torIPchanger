@@ -19,7 +19,9 @@ Optionally, you can also set a password to restrict access to the control port. 
 ```
 #HashedControlPassword <password>
 ```
-Note that <password> should be replaced with the actual hashed password. You can generate the hashed password by running the command tor --hash-password <your_password> in the terminal. Replace <your_password> with your desired password.
+Note that <password> should be replaced with the actual hashed password. You can generate the hashed password by running the command 
+```tor --hash-password <your_password>``` 
+in the terminal. Replace <your_password> with your desired password.
 
 Save the changes and exit the text editor.
 
